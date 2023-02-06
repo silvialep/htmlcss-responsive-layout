@@ -133,7 +133,7 @@ nav {
     margin: 40px 0;
     color: black;
     background-color: white;
-    border-radius: 40px;
+    border-radius: 50px;
 }
 
 #plan-app .development p {
@@ -166,6 +166,7 @@ nav {
 
 
 #testimonials {
+    gap: 50px;
     background-color: white;
 }
 
@@ -174,7 +175,7 @@ nav {
     text-align: center;
 }
 
-.headline span {
+#testimonials span {
     text-transform: uppercase;
     font-size: 1.5em;
 }
@@ -185,8 +186,40 @@ nav {
 }
 
 
-.testimonials.inner {
+.testimonials-inner {
     background-color: rgb(151, 146, 228);
-    border-radius: 30px;
+    border-radius: 50px;
+    text-align: center;
 }
 
+.testimonials-inner .image-container {
+    display: inline-block;
+    width: 400px;
+    height: 400px;
+    margin-top: 60px;
+    border-radius: 50%;
+    overflow: hidden;
+}
+
+.testimonials-inner .image-container img {
+    width: 150%;
+    margin-left: -90px;
+}
+
+.testimonials-inner .image-caption {
+    color: white;
+}
+
+.testimonials-inner .image-caption p {
+    display: inline;
+    color: white;
+}
+
+.testimonials-inner .image-caption h3 {
+    text-transform: uppercase;
+    margin-top: 30px;
+}
+
+.testimonials-inner .image-caption i {
+    font-size: 1.5em;
+}
