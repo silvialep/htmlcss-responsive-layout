@@ -34,26 +34,61 @@ nav {
     flex-flow: row nowrap;
 }
 
-.nav-list ul{
+.nav-list ul {
     display: flex;
     flex-direction: row;
+    font-size: 1.5em;
+    gap: 40px;
 
-    line-height: 40px;
+    /* line-height: 40px; */
     color: white;
     list-style-type: none;
 }
+
 
 .logo img {
     width: 200%;
 }
 
 .menu-mobile i {
-    font-size: 3em;
+    font-size: 2em;
 }
 
 .menu-desktop {
     display: none;
 }
+
+
+
+
+
+@media screen and (min-width: 992px) {
+    nav .menu-mobile {
+        display: none;
+    }
+
+    nav .menu-desktop {
+        display: flex;
+        
+        align-items: center;
+        justify-content: center;
+    }
+
+    .nav-list ul li a {
+        text-decoration: none;
+    }
+
+    .nav-list ul li a:visited {
+        color: white;
+    }
+
+    .btn-bianco {
+        padding: 10px 20px;
+    }
+}
+
+
+
 
 
 /* ________jumbo in header________ */
