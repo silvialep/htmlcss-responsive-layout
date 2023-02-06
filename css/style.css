@@ -113,7 +113,7 @@ nav {
 
 
 
-/* _____main section_______ */
+/* _____strategic plan section_______ */
 
 #plan-app {
     background-color: rgb(151, 146, 228);
@@ -158,3 +158,35 @@ nav {
     font-size: 1.5em;
     line-height: 2em;
 }
+
+
+
+
+/* _____testimonials section */
+
+
+#testimonials {
+    background-color: white;
+}
+
+.headline {
+    margin-top: 80px;
+    text-align: center;
+}
+
+.headline span {
+    text-transform: uppercase;
+    font-size: 1.5em;
+}
+
+.headline h2 {
+    color: rgb(151, 146, 228);
+    font-size: 2.2em;
+}
+
+
+.testimonials.inner {
+    background-color: rgb(151, 146, 228);
+    border-radius: 30px;
+}
+
