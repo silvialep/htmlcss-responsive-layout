@@ -168,10 +168,11 @@ nav {
 #testimonials {
     gap: 50px;
     background-color: white;
+    margin: 80px auto 150px;
 }
 
 .headline {
-    margin-top: 80px;
+    margin-top: 40px;
     text-align: center;
 }
 
@@ -222,4 +223,38 @@ nav {
 
 .testimonials-inner .image-caption i {
     font-size: 1.5em;
+}
+
+
+
+
+
+/* _____benefits_________ */
+
+
+#benefits {
+    padding: 80px 0;
+    background-color: rgb(151, 146, 228);
+}
+
+#benefits h2 {
+    text-align: center;
+    color: white;
+    font-size: 3em;
+    padding: 40px 0;
+}
+
+#benefits .container {
+    gap: 40px;
+}
+
+#benefits .card {
+    background-color: white;
+    border-radius: 30px;
+}
+
+#benefits .card h3,
+#benefits .card h4 {
+    color: rgb(151, 146, 228);
+
 }
