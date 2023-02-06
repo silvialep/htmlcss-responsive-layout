@@ -47,11 +47,7 @@ nav {
 
 
 .logo img {
-    width: 200%;
-}
-
-.menu-mobile i {
-    font-size: 2em;
+    width: 100%;
 }
 
 .menu-desktop {
@@ -97,6 +93,7 @@ nav {
 .jumbo {
     display: flex;
     flex-flow: column wrap;
+    justify-content: space-between;
     gap: 20px;
     margin: 80px auto;
 }
@@ -145,6 +142,28 @@ nav {
     color: rgb(0, 132, 253);
     padding-top: 50px;
 }
+
+
+
+
+
+
+
+@media screen and (min-width: 577px) and (max-width: 991px) {
+    .jumbo {
+        flex-flow: row wrap;
+    }
+
+    .jumbo-inner {
+        width: calc(100% / 3 - (20px));
+        height: 100%;
+    }
+
+    .jumbo-inner:first-child {
+        width: calc(100% /3 * 2);
+    }
+}
+
 
 
 
