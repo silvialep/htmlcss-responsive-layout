@@ -120,17 +120,41 @@ nav {
     padding: 80px 20px;
 }
 
-#plan-app .image-caption {
+#plan-app .strategic .image-caption {
     color: white;
 }
 
-#plan-app .image-caption p {
+#plan-app .strategic .image-caption p {
     color: white;
     text-align: start;
 }
 
 #plan-app .development {
     margin: 40px 0;
+    color: black;
     background-color: white;
     border-radius: 40px;
+}
+
+#plan-app .development p {
+    font-style: italic;
+}
+
+#plan-app .development h3 {
+    color: black;
+}
+
+#plan-app .development span {
+    display: inline-block;
+    margin-top: 40px;
+    width: 80px;
+    height: 80px;
+    color: black;
+    background-color: rgb(151, 146, 228);
+    border-radius: 50%;
+}
+
+#plan-app .development span i {
+    font-size: 1.5em;
+    line-height: 2em;
 }
