@@ -6,13 +6,148 @@
 }
 
 .container {
+    margin: 0 30px;
+}
+
+/* __ / common____ */
+
+
+
+
+
+
+/* ____navbar_____ */
+
+nav {
+    background-color: rgb(0, 132, 253);
+}
+
+.nav-contained {
     display: flex;
-    flex-flow: column wrap;
     justify-content: space-between;
     align-items: center;
-    max-width: 90%;
-    margin: auto;
+    padding: 30px 0;
 }
+
+.nav-contained img {
+    width: 100px;
+}
+
+.nav-contained i {
+    font-size: 2em;
+    color: white;
+}
+
+.btn {
+    padding: 20px 40px;
+    border-radius: 50px;
+    color: white;
+}
+
+
+
+
+
+/* ____jumbo_____ */
+
+#jumbo {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    padding: 50px 0;
+}
+
+
+.jumbo-card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 30px;
+    height: calc(100% / 5);
+    background-color: rgb(181, 221, 255);
+    border-radius: 20px;
+    padding: 50px;
+}
+
+.btn-blu {
+    font-size: 1.2em;
+    font-weight: bold;
+    background-color: rgb(0, 132, 253);
+    width: 80%;
+    letter-spacing: 3px;
+}
+
+.card-details {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 50px;
+}
+
+.card-details h3 {
+    font-size: 2em;
+    color: rgb(0, 132, 253);
+}
+
+.jumbo-card .card-details p {
+    text-align: left;
+}
+
+.jumbo-card .icon-big i {
+    font-size: 5em;
+    color: rgb(0, 132, 253);
+}
+
+.jumbo-card strong {
+    font-size: 1.5em;
+    font-weight: bolder;
+    color: rgb(0, 132, 253);
+}
+
+.jumbo-card p {
+    font-size: 1.1em;
+    font-weight: bold;
+    text-align: center;
+    line-height: 2em;
+    color: rgb(90, 110, 127);
+}
+
+#jumbo .jumbo-card:first-child {
+    padding-bottom: 0;
+    height: calc(100% / 5 * 2);
+}
+
+.jumbo-card .card-image {
+    width: 100%;
+    height: 100%;
+}
+
+.jumbo-card .card-image img {
+    width: 100%;
+    height: 100%;
+}
+
+
+
+
+
+@media screen and (min-width: 576px) and (max-width: 768px) {
+    .nav-contained {
+        height: 110px;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+/* 
+
 
 
 .btn {
@@ -22,33 +157,8 @@
     font-size: 1.1em;
 }
 
-/* ______nav bar___________ */
+______nav bar___________
 
-nav {
-    min-height: 40px;
-    background-color: rgb(0, 132, 253);
-    padding: 20px;
-}
-
-.navbar {
-    flex-flow: row nowrap;
-}
-
-.nav-list ul {
-    display: flex;
-    flex-direction: row;
-    font-size: 1.5em;
-    gap: 40px;
-
-    /* line-height: 40px; */
-    color: white;
-    list-style-type: none;
-}
-
-
-.logo img {
-    width: 100%;
-}
 
 .menu-desktop {
     display: none;
@@ -87,7 +197,7 @@ nav {
 
 
 
-/* ________jumbo in header________ */
+________jumbo in header________
 
 
 .jumbo {
@@ -167,7 +277,7 @@ nav {
 
 
 
-/* _____strategic plan section_______ */
+_____strategic plan section_______
 
 #plan-app {
     background-color: rgb(151, 146, 228);
@@ -216,7 +326,7 @@ nav {
 
 
 
-/* _____testimonials section */
+_____testimonials section
 
 
 #testimonials {
@@ -283,7 +393,7 @@ nav {
 
 
 
-/* _____benefits_________ */
+_____benefits_________
 
 
 #benefits {
@@ -311,4 +421,4 @@ nav {
 #benefits .card h4 {
     color: rgb(151, 146, 228);
 
-}
+} */
