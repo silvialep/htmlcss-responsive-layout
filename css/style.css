@@ -6,7 +6,7 @@
 }
 
 .container {
-    margin: 0 30px;
+    margin: 0 40px;
 }
 
 .btn {
@@ -116,7 +116,7 @@ nav {
     gap: 30px;
 }
 
-.card-details h3 {
+.card-details h2 {
     font-size: 2em;
     color: rgb(0, 132, 253);
 }
@@ -126,11 +126,11 @@ nav {
 }
 
 .jumbo-card .icon-big i {
-    font-size: 6em;
+    font-size: 5em;
     color: rgb(0, 132, 253);
 }
 
-.jumbo-card strong {
+.jumbo-card h3 {
     font-size: 1.3em;
     font-weight: bolder;
     color: rgb(0, 132, 253);
@@ -157,7 +157,7 @@ nav {
 .jumbo-card .card-image img {
     width: 100%;
     height: 100%;
-    
+    object-fit: cover;
 }
 
 
@@ -169,6 +169,101 @@ nav {
 /* _____main______ */
 
 /* _____planning_____ */
+
+#planning {
+    background-color: rgb(151, 146, 228);
+    padding: 60px 0;
+}
+
+.plan-container {
+    display: flex;
+    flex-direction: column;
+    gap: 100px;
+}
+
+.main-card {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    padding: 60px;
+    border-radius: 80px;
+    text-align: center;
+}
+
+.main-card .card-image {
+    width: 100%;
+}
+
+.main-card .card-image img {
+    width: 100%;
+    object-fit: cover;
+}
+
+.main-card .card-details {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.main-card p {
+    font-size: 1.4em;
+    line-height: 2em;
+}
+
+.strat-plan {
+    gap: 80px;
+    color: white;
+    padding: 0;
+    text-align: start;
+}
+
+.strat-plan p {
+    padding-top: 40px;
+}
+
+.strat-plan h2 {
+    color: white;
+    font-size: 3em;
+}
+
+.app-dev {
+    background-color: white;
+}
+
+.app-dev h3 {
+    font-size: 2em;
+}
+
+.app-dev p {
+    font-style: italic;
+}
+
+.card-details .down-arrow {
+    width: 80px;
+    height: 80px;
+    background-color: rgb(151, 146, 228);
+    border-radius: 50%;
+    font-size: 1.8em;
+    line-height: 2.9em;
+}
+
+
+
+
+
+/* _______testimonials______ */
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -191,8 +286,8 @@ nav {
         width: calc(100% / 3 - (20px / 3 * 2));
     }
 
-    .jumbo-card strong {
-        font-size: 1em;
+    .jumbo-card h3 {
+        font-size: 1.2em;
     }
 
     .jumbo-card p {
@@ -264,23 +359,25 @@ nav {
         padding: 10px;
     }
 
-    .card-details h3 {
-        font-size: 1.2em;
+    .jumbo-card .card-details h2 {
+        font-size: 1.3em;
     }
 
     
-    .jumbo-card strong {
-        font-size: 0.8em;
+    .jumbo-card h3,
+    .main-card h3 {
+        font-size: 1.2em;
     }
 
-    .jumbo-card p {
+    .jumbo-card p, 
+    .main-card p {
         font-size: 0.8em;
     }
 
 
 
     .jumbo-card:first-child .card-details {
-        width: 70%;
+        width: 100%;
         height: 100%;
         justify-content: flex-start;
     }
@@ -295,6 +392,34 @@ nav {
         width: 100%;
     }
 
+
+    .plan-container {
+        flex-direction: row;
+        align-items: flex-end;
+        max-width: 700px;
+        gap: 30px;
+    }
+
+    .plan-container .main-card {
+        width: 50%;
+    }
+
+    .card-details .down-arrow {
+        width: 40px;
+        height: 40px;
+        font-size: 0.8em;
+    }
+
+    .strat-plan h2 {
+        font-size: 2em;
+    }
+
+    .strat-plan .card-details {
+        align-items: flex-start;
+    }
+
+    .app-dev {
+        padding: 20px;
+    }
+
 }
-
-
