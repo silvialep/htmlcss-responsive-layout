@@ -254,8 +254,117 @@ nav {
 /* _______testimonials______ */
 
 
+#testimonials {
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+    padding-top: 50px;
+    padding-bottom: 150px;
+}
+
+#testimonials .main-card {
+    padding: 50px 20px;
+    height: calc(100% / 4);
+}
+
+#testimonials .main-card .card-details {
+    gap: 40px;
+}
+
+#testimonials .main-card h2 {
+    color: black;
+    font-size: 1.2em;
+    font-weight: lighter;
+    text-transform: uppercase;
+}
+
+#testimonials .main-card h3 {
+    font-size: 2.5em;
+    color: rgb(151, 146, 228);
+}
+
+#testimonials .card-image {
+    width: 300px;
+    height: 300px;
+    border-radius: 50%;
+    overflow: hidden;
+    align-self: center;
+}
+
+#testimonials .card-image img {
+    width: 100%;
+    height: 100%;
+    object-position: center;
+    object-fit: cover;
+}
+
+#testimonials .purple-card {
+    color: white;
+    background-color: rgb(151, 146, 228);
+}
+
+#testimonials .purple-card i {
+    font-size: 1.5em;
+}
+
+#testimonials .purple-card span {
+    display: block;
+    text-transform: uppercase;
+    font-weight: bold;
+    padding-top: 30px;
+}
 
 
+
+
+/* _______features section______ */
+
+#features {
+    background-color: rgb(151, 146, 228);
+}
+
+.features-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
+    padding: 100px 0;
+}
+
+.features-container h2 {
+    color: white;
+    font-size: 2.5em;
+    text-align: center;
+    padding-bottom: 50px;
+}
+
+.features-container .jumbo-card {
+    width: 100%;
+    background-color: white;
+}
+
+.features-container .jumbo-card .card-details span {
+    font-size: 3em;
+    font-weight: bold;
+    color: rgb(151, 146, 228);
+}
+
+.features-container .jumbo-card .card-details h3 {
+    font-size: 1.9em;
+    color: rgb(151, 146, 228);
+}
+
+.features-container .jumbo-card .card-details p {
+    font-size: 1.2em;
+    font-weight: normal;
+}
+
+.btn-purple {
+    width: 60%;
+    font-size: 1.3em;
+    font-weight: 600;
+    letter-spacing: 4px;
+    background-color: rgb(151, 146, 228);
+}
 
 
 
@@ -305,6 +414,29 @@ nav {
         height: auto;
         gap: 20px;
     }
+
+    #testimonials .purple-card {
+        flex-direction: row;
+        align-items: center;
+    }
+
+    
+    #testimonials .card-image {
+        width: 200px;
+        height: 200px;
+    }
+
+    #testimonials .purple-card .card-details {
+        width: 60%;
+        font-size: 1em;
+        flex-grow: 1;
+    }
+
+    #testimonials .purple-card .card-details p {
+        text-align: left;
+    }
+
+
 
 
 }
@@ -398,10 +530,7 @@ nav {
         align-items: flex-end;
         max-width: 700px;
         gap: 30px;
-    }
-
-    .plan-container .main-card {
-        width: 50%;
+        padding-top: 30px;
     }
 
     .card-details .down-arrow {
@@ -419,7 +548,13 @@ nav {
     }
 
     .app-dev {
+        width: 140%;
         padding: 20px;
     }
+
+    .app-dev .card-image {
+        padding: 0 30px;
+    }
+
 
 }
